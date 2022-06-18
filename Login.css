@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(Background/Backgroud\ green.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+    height: 950px;
+    display: flex;
+}
+.loginBox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 370px;
+    padding: 40px 80px;
+    box-sizing: border-box;
+    background: rgb(0, 0, 0,.2);
+    border-radius: 10px;
+    backdrop-filter: blur(1rem);
+}
+h2{
+    margin: 0;
+    pad: 0 0 20px;
+    color:white;
+}
+h4{
+    font-weight: normal;
+    color: white;
+}
+.loginBox input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.loginBox input[type="text"],
+.loginBox input[type="password"]{
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+
+}
+::placeholder{
+    color: white;
+}
+.loginBox button{
+    padding: 10px;
+    width: 100%;
+    border: none;
+    outline: none;
+    height: 40%;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    background: linear-gradient(to left,rgb(91, 233, 91), green);
+    cursor: pointer;
+    border-radius: 9px;
+    transition: 0.25s;
+}
+.loginBox button:hover{
+    opacity: 0.70;
+}
+.loginBox a:hover{
+    color: white;
+}
+h5{
+    font-weight: normal;
+    text-align: center;
+}
+a{
+    color: white;
+    text-decoration: none;
+    transition: 0.25s;
+}
+.cantlog{
+    text-align: center;
+    margin-top: 10px;
+    font-size: small;
+}
+.cantlog a:hover{
+    margin-top: 5px;
+    color: rgb(91, 233, 91);
+}
