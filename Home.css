@@ -105,7 +105,9 @@ h1{
   margin-left: 32%;
   margin-right: 32%;
 }
-
+.subcaption h2{
+  font-weight: normal;
+}
 .etos h3 {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: white;
