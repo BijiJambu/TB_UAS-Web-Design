@@ -68,10 +68,11 @@ ul {
 .Title h2{
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
   margin-top: 8%;
-  margin-bottom: 0;
   text-align: center;
   color: white;
   margin-bottom: 0;
+  font-size: 80px;
+  font-weight: normal;
 }
 
 .container .card{
@@ -83,7 +84,7 @@ ul {
 	display:flex;
 	flex-direction: column;
 	transition:0.3s ease-in-out;
-	margin-top: 5%;
+	margin-top: 10%;
   background: rgba(255, 255, 255, 0.2);
   border-radius: 10px;
   backdrop-filter: blur(1rem);
@@ -108,7 +109,6 @@ ul {
   max-width: 100%;
 	border-radius: 10px;
   transition: 0.24s;
-  height: ;
 }
 
 .imgBx:hover img{
