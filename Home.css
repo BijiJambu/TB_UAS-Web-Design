@@ -9,6 +9,7 @@ html {
 header{
     position: fixed;
     width: 100%;
+    z-index: 999;
 }
 .logo {
   float: left;
@@ -165,8 +166,9 @@ h1{
 
 .screen {
   position: relative;
-  background: #3e3e3e;
+  background: rgb(0, 0, 0,.2);
   border-radius: 15px;
+  backdrop-filter: blur(1rem);
 }
 
 .screen:after {
@@ -174,11 +176,12 @@ h1{
   display: block;
   position: absolute;
   top: 0;
-margin-left: 3%;
-margin-right: 3%;
+  margin-left: 3%;
+  margin-right: 3%;
   bottom: 0;
   border-radius: 15px;
   box-shadow: 0 20px 40px rgba(0, 0, 0, .4);
+
   z-index: -1;
 }
 
@@ -186,7 +189,7 @@ margin-right: 3%;
   display: flex;
   align-items: center;
   padding: 10px 20px;
-  background: #4d4d4f;
+  background: rgb(0, 0, 0,.2);
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
 }
@@ -296,6 +299,7 @@ margin-right: 3%;
   text-transform: uppercase;
   outline: none;
   transition: border-color .2s;
+  font-weight: bold;
 }
 
 .app-form-control::placeholder {
