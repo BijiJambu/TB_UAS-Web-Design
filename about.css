@@ -74,18 +74,21 @@ ul {
     display: flex;
     justify-content: center;
 }
-.txt{
-    margin-left: 4px;
+.box3 .about-me .container .about .background img {
+	border-radius: 24px;
+	width: 25%;
+	position: absolute;
 }
-.txt hr{
-    position: absolute;
-    width: 129px;
-    height: 0px;
+.txt{
+    margin-left: 32%;
+}
+.txt h1 {
+	color: white;
 }
 .txt p{
     margin-top: 10px;
 	color: white;
-
+	font-size: x-large;
 }
 .footer-distributed{
 	background: #666;
